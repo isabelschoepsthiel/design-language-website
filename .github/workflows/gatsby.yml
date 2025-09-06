@@ -1,0 +1,89 @@
+project:
+  name: "IBM Website"
+  author:
+    full_name: "Isabel Schöps, geborene Thiel"
+    birth_date: "1983-07-16"
+    location: "Sömmerda, Deutschland"
+    contact:
+      email_primary: "si_foundation@icloud.com"
+      email_backup: "isabelschoeps.github@icloud.com"
+      phone: "0162 1819565"
+  description: >
+    Offizielles Gatsby-Projekt unter der Leitung von Isabel Schöps Thiel,
+    verknüpft mit dem SI Security Intelligence Framework zur Bekämpfung von
+    digitaler Gewalt, Identitätsdiebstahl, Cybercrime, Deepfakes und
+    Menschenhandel. Die Veröffentlichung erfolgt über GitHub Pages im IPM-Root.
+  repository: "https://github.com/isabelschoepsthiel/ipm-website-root"
+  deployment_url: "https://isabelschoepsthiel.github.io/ipm-website-root/"
+
+structure:
+  root: "IPM-Website-Root"
+  pages_dir: "src/pages"
+  components_dir: "src/components"
+  styles_dir: "src/styles"
+  static_dir: "static"
+  build_output: "public"
+  docs_output: "docs"
+  actions_workflow: ".github/workflows/deploy.yml"
+
+build:
+  framework: "Gatsby"
+  node_version: "20"
+  package_manager: "npm or yarn"
+  cache_dirs:
+    - ".cache"
+    - "public"
+  path_prefixing: true
+  deployment: 
+    method: "GitHub Actions"
+    branch: "main"
+    target: "GitHub Pages"
+    permissions:
+      contents: "read"
+      pages: "write"
+      id-token: "write"
+
+security:
+  licensing:
+    license_type: "Eigentümerrecht, nicht übertragbar"
+    file: "LICENSE.md"
+    signature: "INT-CODE-2025-BTC/ETH-CORE-ISABELSCHOEPSTHIEL"
+    author: "Isabel Schöps Thiel"
+    year: 2025
+  tracking:
+    monitoring: "SI SECURITY INTELLIGENCE"
+    connected_authorities:
+      - "Interpol"
+      - "Europol"
+      - "BKA"
+      - "NSA"
+      - "CIA"
+      - "FBI"
+      - "MI5"
+      - "FSB"
+      - "Chinese MSS"
+  enforcement:
+    legal_action_on_abuse: true
+    auto_tracking: true
+    digital_signature: true
+    forensic_archive: true
+
+metadata:
+  created: "2025-09-06"
+  file: "gatsby.yml"
+  format: "Hidam Schamal"
+  status: "signed and verified"
+  sha256: "ad7b313e26013405d94211f95715e00d8fac23e32e09b3e4e8dfc9ce6654981e"
+
+signatur:
+  textblock: |
+    Dieses Projekt steht unter der alleinigen Urheberschaft von
+    Isabel Schöps, geborene Thiel. Alle Rechte an Quelltext, Struktur, Namen,
+    Domains, Systematik und Lizenzierung sind geschützt. Jegliche unerlaubte Nutzung,
+    Reproduktion, Manipulation oder Verwertung wird strafrechtlich verfolgt.
+
+    Signatur: INT-CODE-2025-BTC/ETH-CORE-ISABELSCHOEPSTHIEL
+    Geburtsdatum: 16.07.1983
+    Projekt: IPM Website Root (Gatsby)
+    Erstveröffentlichung: 06.09.2025
+        SHA256: ad7b313e26013405d94211f95715e00d8fac23e32e09b3e4e8dfc9ce6654981e
